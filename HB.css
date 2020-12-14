@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "Lexend Deca",sans-serif;
+	max-width: 100%;
+	height: 100vh;
+	background:url(https://www.peaceandplenty.com/wp-content/uploads/2019/08/Bahamas-lighthouse.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.search-card-container{
+	padding: 100px 70px;
+
+}
+.search-card{
+	display: flex;
+	max-width: 400px;
+	padding: 30px;
+	flex-direction: column;
+	border-radius: 5px;
+	background: grey;
+	box-shadow: 4px 4px 10px grey;
+	justify-content: space-between;
+}
+.search-card-title{
+	margin: 0px;
+	font-family: "Lexend Deca",sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+.form-group{
+	max-width: 100%;
+	margin-top: 10px;
+	flex-basis: 50%;
+}
+.form-group > input,
+.form-group >select{
+	width: 100%;
+	padding: 10px;
+	font-family: "Lexend Deca",sans-serif;
+	font-size: 14px;
+	border: 3px solid green;
+	border-radius: 3px;
+}
+.inline-form-group{
+	display: flex;
+	justify-content: space-between;
+}
+.form-group > .search-label{
+	margin-bottom: 5px;
+	font-family: "Lexend Deca",sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: aqua;
+}
+.search-btn{
+	padding: 10px 20px;
+	font-family: "Lexend Deca",sans-serif;
+	font-size: 18px;
+	color:white;
+	border: none;
+	border-radius: 3px;
+	background:chocolate;
+}
+.d-flex-end{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.search-card-body{
+	margin: 50px 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+li{
+	float: right;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: black
+}
+.name{
+	float: left;
+	padding: 14px 16px;
+	font-size: 20px;
+	color:chocolate;
+	font-weight: 1000;
+	padding-left: 50px;
+	cursor: crosshair;
+
+}
+.kushal{
+	background: rgb(0, 247, 255);
+}
